@@ -1,14 +1,25 @@
 const Projects = () => {
   return (
-    <div className="grid md:grid-cols-3 gap-6">
-      {/* Project Details */}
-      <div className="col-span-2 p-6 bg-white rounded-xl shadow-md text-gray-700">
+    <div className="max-w-5xl mx-auto flex flex-col gap-6">
+      {/* Project Screenshot on top */}
+      <div className="w-full">
+        <div className="relative w-full h-[260px] sm:h-[350px] md:h-[420px] rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300">
+          <img
+            src="https://i.ibb.co.com/RGhkFjjJ/projects.jpg"
+            alt="Consultancy website screenshot"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+
+      {/* Project Details below */}
+      <div className="p-6 bg-white rounded-xl shadow-md text-gray-700">
         {/* Project Title */}
         <div className="mb-4">
-          <h2 className="text-3xl font-bold text-gray-800 tracking-wide">
-            Consultancy Website
+          <h2 className="text-3xl font-bold text-gray-800 tracking-wide text-center">
+            LB Consultancy
           </h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-gray-600 text-center max-w-3xl mx-auto">
             A full-stack multi-layout platform connecting students with
             international universities and study services.
           </p>
@@ -70,9 +81,9 @@ const Projects = () => {
         </div>
 
         {/* Visit Site Button */}
-        <div className="mt-5">
+        <div className="mt-5 text-center">
           <a
-            href="https://your-consultancy-website-link.com"
+            href="https://lb-consultancy-frontend.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="relative inline-flex items-center justify-center px-4 py-2.5 text-sm font-semibold text-blue-700
@@ -86,17 +97,6 @@ const Projects = () => {
               Visit Site
             </span>
           </a>
-        </div>
-      </div>
-
-      {/* Project Screenshot */}
-      <div className="col-span-3 md:col-span-1 order-1 md:order-2">
-        <div className="relative h-full w-full rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300">
-          <img
-            src="https://via.placeholder.com/600x400.png?text=Consultancy+Website+Screenshot"
-            alt="Consultancy website screenshot"
-            className="w-full h-full object-cover"
-          />
         </div>
       </div>
     </div>
