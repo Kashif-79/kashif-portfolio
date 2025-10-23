@@ -73,7 +73,7 @@ const Home = () => {
         <span className="font-medium text-gray-800">+8801877273449</span> or
         check out my{" "}
         <a
-          href="https://docs.google.com/document/d/1_PNT6ZgRlj07oFk555sx4nz03VTisYeJNTO60bC7U3k/edit?usp=sharing"
+          href="/kashifur-rahman-reza.pdf"
           className="text-blue-600 hover:underline"
           target="_blank"
           rel="noopener noreferrer"
