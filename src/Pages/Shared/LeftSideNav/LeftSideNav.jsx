@@ -43,7 +43,7 @@ const LeftSideNav = () => {
           </li>
           <li>
             <a
-              href="https://docs.google.com/document/d/1_PNT6ZgRlj07oFk555sx4nz03VTisYeJNTO60bC7U3k/edit?usp=sharing"
+              href="/kashifur-rahman-reza.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline mb-2 flex gap-1 items-center"
